@@ -50,11 +50,12 @@ namespace RamLogo
 
             drawFont = new Font("Microsoft Himalaya", 18, FontStyle.Regular);
             g.TranslateTransform(540, 300);
-            g.RotateTransform(270);
+            g.RotateTransform(240);
             g.DrawString("Central Rams Arcade", drawFont, drawBrush, new Rectangle());
             g.ResetTransform();      
             
-            //end of file uwu
+            
+            //Comment OwO
         }
     }
 }
