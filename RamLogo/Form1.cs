@@ -52,7 +52,9 @@ namespace RamLogo
             g.TranslateTransform(540, 300);
             g.RotateTransform(270);
             g.DrawString("Central Rams Arcade", drawFont, drawBrush, new Rectangle());
-            g.ResetTransform();           
+            g.ResetTransform();      
+            
+            //end of file uwu
         }
     }
 }
