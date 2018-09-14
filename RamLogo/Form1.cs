@@ -48,14 +48,15 @@ namespace RamLogo
             drawFont = new Font("Arial", 40, FontStyle.Bold);
             g.DrawString("Rams", drawFont, drawBrush, this.Width/2 - 50, this.Height/2 - 30);
 
+            //Change font & add "Central Rams Arcade"
             drawFont = new Font("Microsoft Himalaya", 18, FontStyle.Regular);
             g.TranslateTransform(540, 300);
-            g.RotateTransform(240);
+            g.RotateTransform(270);
             g.DrawString("Central Rams Arcade", drawFont, drawBrush, new Rectangle());
             g.ResetTransform();      
             
             
-            //Comment OwO
+            //Ok, I think I'm done for real this time uwu
         }
     }
 }
